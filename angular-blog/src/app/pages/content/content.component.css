@@ -1,5 +1,4 @@
 .container__content {
-    border: 1px solid white;
     width: 100%;
     height: 100%;
     margin-top: 20px;
@@ -7,10 +6,6 @@
     flex-direction: column;
     align-items: center;
 }
-
-/* .content__cover {
-    border: 1px solid greenyellow;
-} */
 
 .content__cover > img{
     border-radius: 10px;
@@ -28,5 +23,6 @@
 }
 
 .content__description > p {
+    margin-top: 20px;
     color: rgb(176, 176, 176);
 }
